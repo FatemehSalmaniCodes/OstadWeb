@@ -93,3 +93,13 @@ MyWeb/
 ---
 
 <p align="center">Made for learning 💜 &nbsp;|&nbsp; Original work by Dr. Forghani &nbsp;|&nbsp; Notes by C.E Students 🤍</p>
+
+---
+
+<p align="center">
+  <a href="README.fa.md">
+    <img src="https://img.shields.io/badge/Read%20in-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-239120?style=for-the-badge" alt="Read in Persian (فارسی)">
+  </a>
+</p>
+
+<p align="center">📖 Click the button above to read this file in Persian (فارسی).</p>
