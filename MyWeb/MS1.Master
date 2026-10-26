@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MS1.master.cs" Inherits="MyWeb.MS1" %>
+<%-- Subject: Shared master layout (menu bar, content area, footer blocks) | Role: Used by Default, Product_list and Product_dtl; no CSS framework linked yet. | mDev --%>
 
 <!DOCTYPE html>
 
@@ -11,12 +12,15 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <%-- Top bar placeholder (future navigation menu). -- mDev --%>
         <div style="width:100%;height:300px;background-color:aquamarine">menu</div>
+        <%-- Page-specific content is injected here by each child page. -- mDev --%>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
          <div style="width:100%;height:600px;"></div>
+         <%-- Footer placeholder. -- mDev --%>
          <div style="width:100%;height:300px;background-color:aliceblue"></div>
     </form>
 </body>

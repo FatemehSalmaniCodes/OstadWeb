@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/MS1.Master" CodeBehind="Product_list.aspx.cs" Inherits="MyWeb.Product_list" %>
+<%-- Subject: Demo page for passing an ID to the detail page (QueryString vs Session) | mDev --%>
 
 <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Button ID="Button2" runat="server" Text="send session" OnClick="Button2_Click" />

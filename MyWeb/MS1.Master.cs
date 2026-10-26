@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Subject: Code-behind of the master page (no logic yet)
+// -- mDev
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

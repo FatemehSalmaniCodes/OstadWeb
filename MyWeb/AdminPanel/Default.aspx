@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MyWeb.AdminPanel.Default" %>
+<%-- Subject: Admin panel home (empty placeholder page) | mDev --%>
 
 <!DOCTYPE html>
 

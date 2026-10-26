@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Subject: Code-behind of the image-upload form
+// Role: Saves the image to ~/upload with a timestamp name, then inserts the item in the database.
+// -- mDev
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -21,6 +25,7 @@ namespace MyWeb
                 string filepath = "";
                 if (FileUpload1.HasFile == true)
                 {
+                    // NOTE: no file-type check (the commented ext check is not active). -- mDev
                     FileUpload1.SaveAs(Server.MapPath("~/upload/" + filename(FileUpload1.FileName)));
                     filepath = "../upload/" + filename(FileUpload1.FileName);
 
@@ -46,6 +51,8 @@ namespace MyWeb
 
         }
 
+        // Builds a new file name from the current date/time + original extension. -- mDev
+        // NOTE: two uploads within the same second would get the same name. -- mDev
         string filename(string filename)
         {
             string output = "";

@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="List.aspx.cs" Inherits="MyWeb.List" %>
+<%-- Subject: Product list page (RTL / Persian) with filter sidebar and product cards | Role: Uses Bootstrap 5 (assets/css/bootstrap.css); ListView binds item_tbl rows. | mDev --%>
 
 <!DOCTYPE html>
 
@@ -24,6 +25,7 @@
                                     <p>فیلتر</p>
                                 </div>
                                   <div class="card-body">
+                                      <%-- Filter checkboxes are placeholders: they are not connected to any code yet. -- mDev --%>
                                       <asp:CheckBox ID="CheckBox1" Text="فیلتر1" CssClass="form-control mb-2" runat="server" />
                                       <asp:CheckBox ID="CheckBox2" Text="فیلتر1" CssClass="form-control mb-2" runat="server" />
                                       <asp:CheckBox ID="CheckBox3" Text="فیلتر1" CssClass="form-control mb-2" runat="server" />
@@ -40,6 +42,7 @@
                                    <div>
                 <div class="row">
 
+                    <%-- Each item_tbl row is rendered as one card (name, image, price, view link). -- mDev --%>
                     <asp:ListView ID="ListView1" runat="server">
                         <ItemTemplate>
                             <div class="col-md-3">

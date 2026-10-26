@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Item_mng.aspx.cs" Inherits="MyWeb.Item_mng" %>
+<%-- Subject: Simple admin form to add an item (name + price, no image) | Role: Standalone page, no master page and no CSS yet. | mDev --%>
 
 <!DOCTYPE html>
 

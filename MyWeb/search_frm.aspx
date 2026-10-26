@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="search_frm.aspx.cs" Inherits="MyWeb.search_frm" %>
+<%-- Subject: Search page (by name or by ID) with a styled GridView of results | mDev --%>
 
 <!DOCTYPE html>
 
